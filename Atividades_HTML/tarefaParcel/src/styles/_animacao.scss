@@ -1,0 +1,45 @@
+//layout geral
+.animação {
+    padding: 24px 0;
+    
+    &__title {
+        text-align: center;
+        margin-bottom: 22px;
+    }
+    .abc{
+        display: flex;
+        gap: 40px;
+    }
+    .descrição {
+
+        &__text {
+            font-size: 18px;
+            line-height: 24px;
+        }
+
+        &__details {
+            display: flex;
+            justify-content: space-around;
+
+            &__item {
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 640px){
+    .animação {
+
+        .abc {
+            display: block;
+            max-width: 80%;
+        }
+
+        .descrição__details {
+            display: block;
+            text-align: center;
+        }
+
+    }
+}

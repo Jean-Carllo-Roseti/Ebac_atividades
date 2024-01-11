@@ -55,11 +55,7 @@ header nav li a {
     padding-right: 16px;
 }
 
-.reparo {
-    width: 100%;
-    margin: 0 auto;
 
-}
 
 header .conteiner,
 section .conteiner {
@@ -246,6 +242,10 @@ ul.modelos li figcaption {
     margin-left: 136px;
 }
 
+.reparo {
+    width: 100%;
+    margin: 0 auto;
+}
 
 form input,
 form textarea,

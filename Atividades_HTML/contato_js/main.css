@@ -1,0 +1,95 @@
+* {
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aquamarine;
+    padding-top: 120px;
+}
+
+header { background-color: rgb(238, 17, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 6px;
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+header img {
+    width: 36px;
+}
+
+.container {background-color: ;
+    background-color: rgb(246, 226, 246);
+    max-width: 960px;
+    margin: auto;
+    width: 100%;
+}
+
+form {    
+    background-color: rgb(246, 226, 246);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#Cate {
+    margin-left: 70px;
+}
+
+button {
+    margin-right: 70px;
+}
+
+input {
+    width: 150px;
+}
+
+table {
+    
+    border-collapse: separate;
+    border-spacing: 0;
+    max-width: 960px;
+    margin: auto;
+    width: 100%;
+}
+
+#casual,
+#familia,
+#amigos,
+#faculdade,
+#trabalho {
+    width: 20px;
+}
+
+th {
+    font-size: 24px;
+    background-color: rgb(244, 14, 244);
+    padding: 10px; /* Espaçamento interno das células de cabeçalho */
+    text-align: center; /* Centraliza o conteúdo das células de cabeçalho */
+}
+
+td {
+    font-size: 18px;
+    padding: 10px; /* Espaçamento interno das células de dados */
+    text-align: center; /* Centraliza o conteúdo das células de dados */
+}
+
+p {
+    background-color: rgb(253, 9, 253);
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+    
+}
+
+
+
+

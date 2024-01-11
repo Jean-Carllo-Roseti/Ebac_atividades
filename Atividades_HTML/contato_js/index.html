@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos</title>
+    <link rel="stylesheet" href="./main.css"/>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./image/contato.png" alt="emoji de uma lista de contato"/>
+            <h1>Contatos</h1>
+        </header>
+        <form>
+            <input id="Cate" type="text" required placeholder="Categoria"/>
+            <input id="nome"   type="text" required placeholder="Nome"/>
+            <input id="numero" type="tel"  required  placeholder="Número"/>
+            <button  onclick="cadastrarContato()" type="submit">Cadastrar</button>
+        </form>
+        <table>
+            <thead>
+                <tr >
+                    <th> <img  id="familia"  src="./image/familia.png" alt="emoji coração"/>Família</th>
+                    <th><img  id="amigos" src="./image/amigos.png" alt="emoji maos dadas"/> Amigos</th>
+                    <th> <img  id="faculdade" src="./image/faculdade.png" alt="emoji diplomas"/>faculdade</th>
+                    <th> <img id="trabalho"  src="./image/trabalho.png" alt="emoji operario"/>Trabalho</th>
+                    <th> <img id="casual" src="./image/casual.png"   alt="emoji tipo casual"/> Casual</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="familia-text"></td>
+                    <td id="amigos-text"></td>
+                    <td id="faculdade-text"></td>
+                    <td id="trabalho-text"></td>
+                    <td id="casual-text"></td>
+                </tr>
+                <tr>
+                    <td id="familia-number"></td>
+                    <td id="amigos-number"></td>
+                    <td id="faculdade-number"></td>
+                    <td id="trabalho-number"></td>
+                    <td id="casual-number"></td>
+                </tr>
+            </tbody>
+        </table>
+        <p id="sucesso">contato salvo com sucesso!</p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

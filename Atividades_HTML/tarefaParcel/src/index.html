@@ -3,17 +3,168 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>EBAC Games</title>
     <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div>
-            <h1>
-                Nome site
-            </h1>
-            <img src="./images/atletismo.jpg" alt="foto">
+    <header class="header">
+        <div class="container">
+            <img class="header__logo" src="./images/ebac_logo.svg" alt="foto">
+            <h1 class="header__title">Evento de Game Dev_EBAC! <br/> A data de inscrição termina em:<br/> <span id="contador"></span></h1>
+            <ul class="header__list">
+                <li class="header__list__item">
+                    <b>Visibilidade</b>
+                    <ul>
+                        <li>
+                            adasdasd
+                        </li>
+                    </ul>
+                </li>
+                <li class="header__list__item">
+                    <b>Tutoriais</b>
+                    <ul>
+                        <li>
+                            adasdasd
+                        </li>
+                    </ul>
+                </li>
+                <li class="header__list__item">
+                    <b>Prêmios</b>
+                    <ul>
+                        <li>
+                            adasdasd
+                        </li>
+                    </ul>
+                </li>
+                <button class="header__list__button"> Inscreva-se</button>
+            </ul>
         </div>
     </header>
+    <section class="animação colors colors--anima ">
+        <div  data-aos="fade-up" data-aos-duration="1000">
+            <h2 class="animação__title">Animação</h2>
+            <div class="abc container">
+                <img class="img_1" src="./images/mario_back_img.webp" alt="personagens do mario">
+                <div class="descrição">
+                    <p class="descrição__text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius animi illum soluta iusto odit aliquid modi expedita, sapiente corporis repudiandae deserunt totam reprehenderit blanditiis? Doloremque esse non enim exercitationem ad! lore 
+                    </p>
+                    <ul data-aos="fade-left" data-aos-duration="1500">
+                    <li class="descrição__details">
+                            <ul>
+                                <li>
+                                    <img class="img_2" src="./images/atletismo.jpg" alt="">
+                                </li>
+                                <li class=" descrição__details__item"> <a href="#" class="button button--anima">Ver Mais</a></li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <img class="img_2" src="./images/atletismo.jpg" alt="">
+                                </li>
+                                <li class=" descrição__details__item"> <a href="#" class="button button--anima">Ver Mais</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    <section class="animação colors colors--designer">
+        <div data-aos="fade-up" data-aos-duration="1000">
+            <h2 class="animação__title">Designer</h2>
+            <div class="abc container inverte" >
+                <img class="img_1" src="./images/mario_back_img.webp" alt="personagens do mario">
+                <div class="descrição">
+                    <p class="descrição__text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius animi illum soluta iusto odit aliquid modi expedita, sapiente corporis repudiandae deserunt totam reprehenderit blanditiis? Doloremque esse non enim exercitationem ad! lore 
+                    </p>
+                    <ul data-aos="fade-right" data-aos-duration="1500">
+                    <li class="descrição__details">
+                            <ul>
+                                <li>
+                                    <img class="img_2" src="./images/atletismo.jpg" alt="">
+                                </li>
+                                <li class=" descrição__details__item"> <a href="#" class="button button--designer">Ver Mais</a></li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <img class="img_2" src="./images/atletismo.jpg" alt="">
+                                </li>
+                                <li class=" descrição__details__item"> <a href="#" class="button button--designer">Ver Mais</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    <section class="animação colors colors--audio ">
+        <div data-aos="fade-up" data-aos-duration="1000">
+            <h2 class="animação__title">Audio</h2>
+            <div class="abc container" >
+                <img class="img_1" src="./images/mario_back_img.webp" alt="personagens do mario">
+                <div class="descrição">
+                    <p class="descrição__text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius animi illum soluta iusto odit aliquid modi expedita, sapiente corporis repudiandae deserunt totam reprehenderit blanditiis? Doloremque esse non enim exercitationem ad! lore 
+                    </p>
+                    <ul data-aos="fade-left" data-aos-duration="1500">
+                    <li class="descrição__details">
+                            <ul>
+                                <li>
+                                    <img class="img_2" src="./images/atletismo.jpg" alt="">
+                                </li>
+                                <li class=" descrição__details__item"> <a href="#" class="button button--audio">Ver Mais</a></li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <img class="img_2" src="./images/atletismo.jpg" alt="">
+                                </li>
+                                <li class=" descrição__details__item"> <a href="#" class="button button--audio">Ver Mais</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    <section class="animação colors colors--roteiro  ">
+        <div data-aos="fade-up" data-aos-duration="1000">
+            <h2 class="animação__title">Roteiro</h2>
+            <div class="abc container inverte" >
+                <img class="img_1" src="./images/mario_back_img.webp" alt="personagens do mario">
+                <div class="descrição">
+                    <p class="descrição__text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius animi illum soluta iusto odit aliquid modi expedita, sapiente corporis repudiandae deserunt totam reprehenderit blanditiis? Doloremque esse non enim exercitationem ad! lore 
+                    </p>
+                    <ul data-aos="fade-right" data-aos-duration="1500">
+                    <li class="descrição__details">
+                            <ul>
+                                <li>
+                                    <img class="img_2" src="./images/atletismo.jpg" alt="">
+                                </li>
+                                <li class=" descrição__details__item"> <a  href="#" class="button button--roteiro">Ver Mais</a></li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <img class="img_2" src="./images/atletismo.jpg" alt="">
+                                </li>
+                                <li class=" descrição__details__item"> <a href="#" class="button button--roteiro">Ver Mais</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./scripts/main.js"></script>
 </body>
 </html>

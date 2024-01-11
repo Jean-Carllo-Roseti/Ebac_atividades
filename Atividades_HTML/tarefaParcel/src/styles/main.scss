@@ -1,4 +1,47 @@
-img {
+@use 'colors';
+@use 'reset';
+@use 'header';
+@use 'animacao';
+@use 'buttons';
+@use 'variaveis';
+
+body {
+    font-family: variaveis.$text;
+}
+
+
+.img_1 {
     max-width: 300px;
     width: 100%;
+    border-radius: 24px;
 }
+
+@media (max-width: 640px) {
+    .img_1 {
+        margin-bottom: 28px;
+    }
+}
+
+.img_2 {
+    border-radius: 12px;
+    max-width: 200px;
+    width: 100%;
+    margin: 16px 0;
+}
+
+@media (max-width: 640px) {
+    .img_2 {
+        margin-top: 26px;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    width: 1024px;
+    max-width: 100%;
+}
+
+.inverte {
+    flex-direction: row-reverse;
+}
+

@@ -1,0 +1,39 @@
+@use 'variaveis';
+
+.button {
+    padding: 6px 8px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 3px;
+    transition: opacity 0.6s ease; //transição n esta acontecendo.
+
+    
+    &--anima {
+        background-color: variaveis.$animaColor;
+
+        &:hover {
+            background-color: lighten(variaveis.$animaColor, 10%);
+        }
+    }
+
+    &--designer {
+        background-color: variaveis.$designerColor;
+        &:hover {
+            background-color: lighten(variaveis.$designerColor, 20%);
+        }
+    }
+
+    &--audio {
+        background-color: variaveis.$audioColor;
+        &:hover {
+            background-color: lighten(variaveis.$audioColor, 20%);
+        }
+    }
+
+    &--roteiro {
+        background-color: variaveis.$roteiroColor;
+        &:hover {
+            background-color: lighten(variaveis.$roteiroColor, 20%);
+        }
+    }
+}

@@ -1,0 +1,20 @@
+@use 'variaveis';
+
+.colors{
+
+    &--anima {
+        background-image: linear-gradient(variaveis.$backRed ,variaveis.$backOrange);
+    }
+
+    &--designer {
+        background-image: linear-gradient(variaveis.$backOrange,variaveis.$backYeloow);
+    }
+
+    &--audio {
+        background-image: linear-gradient(variaveis.$backYeloow,variaveis.$backGreen1);
+    }
+
+    &--roteiro {
+        background-image: linear-gradient(variaveis.$backGreen1,variaveis.$backGreen2);
+    }
+}
